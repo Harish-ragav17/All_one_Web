@@ -1,0 +1,21 @@
+.FCard{
+    width: fit-content;
+    padding: 20px;
+    background-color: rgb(12, 46, 70);
+    height:fit-content;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+.FCard:hover{
+    box-shadow: 0px 0px 7px 1px black;
+}
+.FCard p{
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+}
+.FCard-img{
+    width: 200px;
+    border-radius: 10px;
+}

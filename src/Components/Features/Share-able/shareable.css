@@ -1,0 +1,178 @@
+html{
+    scroll-behavior: smooth;
+}
+#shareable-outer{
+    padding: 20px;
+}
+#shareable-top{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+#shareable-top h2{
+    width: fit-content;
+}
+#shareable-intro{
+    text-indent: 60px;
+    line-height: 30px;
+    padding: 25px;
+    font-size: 19px;
+}
+#shareable-share-container{
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(219, 236, 252);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 10px;
+    height: fit-content;
+    gap: 20px;
+}
+#shareable-share-container-form{
+  background-color: rgb(255, 255, 255);
+  width: 20%;
+  min-width:300px;
+  height: auto;
+  border-radius: 10px;
+  padding: 20px;
+  align-items: center;
+  border: 2px solid black;
+  
+}
+#shareable-share-container-form input{
+    width: 90%;
+    padding: 9px;
+    border-radius: 9px;
+}
+#shareable-share-container-form h2{
+    text-align: center;
+}
+#shareable-share-container-form Button{
+    margin-top: 20px;
+    margin-left: 30%;
+}
+#shareable-share-container-data{
+    width: 70%;
+    height: 400px;
+}
+#shareable-share-container-data textarea{
+    width: 100%;
+    height: 95%;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    resize: none;
+}
+#shareable-share-container-form-share{
+    display: flex;
+    justify-content: center;
+}
+
+#shareable-share-container-form-share-btn{
+    scale: 1.5;
+    margin-top: 15px;
+    width: fit-content;
+}
+
+#shareable-share-container-form-share-btn:hover{
+    cursor: pointer;
+    scale: 1.6;
+}
+
+
+#shareable-selector{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 200px;
+    padding: 50px;
+}
+#shareable-selector div{
+    width: fit-content;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+} 
+
+#shareable-selector div:hover{
+    box-shadow: 0px 0px 5px 1px black;
+    cursor: pointer;
+} 
+
+#shareable-selector div{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+
+#shareable-view{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 50px;
+    background-color: rgb(214, 233, 251);
+    border-radius: 20px;
+    height: 500px;
+    gap: 20px;
+}
+
+#sharable-token-form{
+    width: 20%;
+    padding: 50px;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+#sharable-token-form h3{
+ margin-top: 30px;
+}
+
+#sharable-token-form input{
+    margin-top: 30px;
+    padding: 6px;
+    width: 90%;
+    font-size: 17px;
+}
+
+#sharable-token-form Button{
+    margin-top: 40px;
+}
+
+
+#sharable-view-content{
+ width: 70%;
+}
+
+#sharable-view-content textarea{
+    width: 100%;
+    height: 100%;
+    resize: none;
+    border-radius: 10px;
+    font-size: 17px;
+    padding: 10px;
+}
+
+#sharable-token-form-info{
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+#loader {
+    margin-left: 40%;
+    border: 8px solid #f3f3f3; 
+    border-top: 8px solid #3498db; 
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

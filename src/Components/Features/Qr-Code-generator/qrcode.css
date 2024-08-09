@@ -1,0 +1,79 @@
+#qr-outer{
+    padding: 45px;
+    height: fit-content;
+}
+
+#Title{
+    text-align: center;
+    font-size: 19px;
+    font-weight:bold;
+    padding: 20px;
+}
+
+#welcomebox
+{
+    text-indent: 50px;
+    width: 95%;
+    font-size: 19px;
+
+}
+
+#qr-generator-main{
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 40px;
+   flex-wrap: wrap;
+   gap: 20px;
+} 
+
+#qr-generator-main div{
+   padding: 15px;
+   width: fit-content;
+   height: fit-content;
+   border-radius: 10px;
+   background-color: rgb(210, 193, 193);
+}
+#form{
+    text-align: center;
+}
+#form p{
+    font-size: 18px;
+    font-weight: 500;
+}
+#form #form-input{
+   padding: 5px;
+   font-size: 17px;
+   border-radius: 5px;
+    width: 250px;
+   margin-top: 20px;
+}
+
+#buttons {
+    margin-left: 80px;
+}
+
+#qr{
+    width: 250px;
+    text-align: center;
+}
+
+#qr img{
+    width: 250px;
+}
+
+#icons-row{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+#icons-row svg{
+    scale: 1.5;
+}
+
+#icons-row svg:hover{
+    scale: 1.7;
+    cursor: pointer;
+}
+

@@ -117,7 +117,7 @@ const QrCodeGenerator = () => {
         </div>
         <div id='qr'>
             {imgUrl?
-              <img src={imgUrl}/>
+              <img alt='Wait' src={imgUrl}/>
                 :
                 "Your QR will be shown here"
             }

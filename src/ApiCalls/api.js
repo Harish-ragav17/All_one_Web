@@ -17,7 +17,7 @@ const uploadShareableText=async(code,text,setUploaded,doneUploading,errorUploadi
 const getSharableContent=async(getCode,setGetText,errorGetting)=>{
   
   await axios.post(`/getSharable`,{getCode}).then((data)=>{
-    if(data.data == "Data Not Found" || data.data == "Error in getting data"){
+    if(data.data === "Data Not Found" || data.data === "Error in getting data"){
       errorGetting(data.data);
     }else{
       setGetText(data.data.data);

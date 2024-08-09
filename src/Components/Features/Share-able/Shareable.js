@@ -5,7 +5,6 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { FaCopy } from 'react-icons/fa';
 import { getSharableContent, uploadShareableText } from '../../../ApiCalls/api';
-import ClipboardJS from 'clipboard';
 
 const Shareable = () => {
     const [text,setText]=useState("");
@@ -78,7 +77,7 @@ const Shareable = () => {
        setUploaded(false);
     }   
     const isGetEmpty=()=>{
-      if(getCode == ""){
+      if(getCode === ""){
          toast.error('Text Input is Empty..!', {
              position: "top-right",
              autoClose: 5000,
